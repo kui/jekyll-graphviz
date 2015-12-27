@@ -49,7 +49,7 @@ digraph "some graphviz title" {
 
 ### Configs and Default Values
 
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~yaml
 # _config.yaml
 graphviz:
   options: "-Tsvg" # 'dot' command option
