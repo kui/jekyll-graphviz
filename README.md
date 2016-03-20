@@ -14,11 +14,15 @@ end
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install jekyll-graphviz
+```bash
+$ gem install jekyll-graphviz
+```
 
 ## Usage
 
@@ -44,7 +48,7 @@ digraph "some graphviz title" {
   b -> c
   c -> a
 }
-{% enddigraphviz %}
+{% endgraphviz %}
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 ### Configs and Default Values
