@@ -56,8 +56,8 @@ digraph "some graphviz title" {
 ~~~~~~~~~~~~~~~~~~~~~~~yaml
 # _config.yaml
 graphviz:
-  options: "-Tsvg" # 'dot' command option
-  command: "dot"   # execute this string. specify full path to 'dot' if you need
+  options: "-Tsvg" # 'dot' executable option
+  executable: "dot"   # execute this string. specify full path to 'dot' if you need
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Development
