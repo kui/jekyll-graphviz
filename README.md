@@ -44,7 +44,7 @@ digraph "some graphviz title" {
   b -> c
   c -> a
 }
-{% enddigraphviz %}
+{% endgraphviz %}
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 ### Configs and Default Values
