@@ -12,6 +12,11 @@ module Jekyll
       @config = config || {}
     end
 
+    def render_dotf path
+        code = File.read path.strip
+        render code, File.basename(path, ".*")
+    end
+
     def render code, title = nil
       title = gen_title(title, code)
       svg = generate_svg code
